@@ -40,7 +40,7 @@ const IndexPage = () => {
       comment: comment,
     };
 
-    fetch("", {
+    fetch("/.netlify/functions/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
